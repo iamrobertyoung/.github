@@ -1,6 +1,6 @@
 # .github
 
-Shared GitHub Actions workflows for the homelab repositories. Pin callers to a tag, never to `main`.
+Shared GitHub Actions workflows for the homelab repositories. Callers pin `@v1`, never `main`. `v1` is an annotated tag moved forward by hand to the new `main` commit after each merged change, so a breaking change needs a new major tag instead.
 
 ## pr-title.yml
 
